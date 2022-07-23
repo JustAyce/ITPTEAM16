@@ -1,0 +1,12 @@
+beautifulsoup4==4.11.1
+confusable_homoglyphs==3.2.0
+jarowinkler==1.0.5
+nostril==0.1.1
+pandas==1.4.3
+pyOpenSSL==22.0.0
+python_whois==0.7.3
+requests==2.27.1
+tldextract==3.3.0
+urllib3==1.26.9
+validators==0.20.0
+whois==0.9.16
