@@ -6,7 +6,7 @@ def fetch_sus_kw_list() -> list:
     :return:
     """
     sus_kw_list = []
-    r = requests.get("https://raw.githubusercontent.com/JustAyce/ITPTEAM16/main/urgent_wordlist.txt")
+    r = requests.get("https://raw.githubusercontent.com/JustAyce/ITPTEAM16/main/wordlists/urgent_wordlist.txt")
     if r.status_code == 200:
         data = r.text
         for i, line in enumerate(data.split('\n')):
@@ -29,7 +29,7 @@ def fetch_brand_list() -> str:
     :return:
     """
     brand_list = []
-    r = requests.get("https://raw.githubusercontent.com/JustAyce/ITPTEAM16/main/brand_names.txt")
+    r = requests.get("https://raw.githubusercontent.com/JustAyce/ITPTEAM16/main/wordlists/brand_names.txt")
     if r.status_code == 200:
         data = r.text
         for i, line in enumerate(data.split('\n')):
