@@ -25,7 +25,8 @@ def main():
     url_list = []
 
     # Get URL List from OpenPhish
-    r = requests.get("https://openphish.com/feed.txt")
+    url_list_url = "https://openphish.com/feed.txt"
+    r = requests.get(url_list_url)
     if r.status_code == 200:
         for i, line in enumerate(r.text.split('\n')):
             url_list.append(line) 
