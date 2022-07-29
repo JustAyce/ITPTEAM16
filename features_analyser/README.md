@@ -27,7 +27,7 @@ cd features_analyser
 │     └── util.py ------ # utility functions
 │
 │
-├── offline.py --------------------- # For usage on phishing │kits
+├── offline.py --------------------- # For usage on phishing kits
 │
 └── online.py --------------------- # For usage on online websites
 ```
