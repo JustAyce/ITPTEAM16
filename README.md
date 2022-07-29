@@ -34,7 +34,7 @@ With pickles, by saving the pre-fitted KMeans Model used to perform clustering, 
 ### Approach 2 
 The code and usage instructions of this approach can be found in [KNN.ipynb.](KNN.ipynb)
 
-Approach 2 is a hybrid source code based clustering, feature based prediction model, where firstly, KMeans is used to cluster the dataset, then KNN is used to predict the cluster of the phishing website, based on its features. The features analysed can be found in [KNN Factors.](#knn-factors)
+Approach 2 is a hybrid source code based clustering, feature based prediction model, where firstly, KMeans is used to cluster the dataset, then KNN is used to predict the cluster of the phishing website, based on its features. The features analysed can be found in [KNN Features.](#knn-features)
 
 # Installation
 ```
